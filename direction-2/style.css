@@ -1,5 +1,5 @@
 html{
-	font-family: Archivo, Arial, Helvetica, sans-serif;
+	font-family: "Archivo", Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
 	background-color: white;
 }
@@ -8,7 +8,7 @@ html{
 :root{
 color: black;
 background-color: ;
-font-family: Archivo;
+font-family: "Archivo";
 
 	--space-sm: 1rem;
 	/* --space-callout: calc(var(--space-sm)*1.5); */
@@ -18,15 +18,32 @@ font-family: Archivo;
 	--space-xl: calc(var(--space-sm)*4);
 	--space-xxl:calc(var(--space-sm)*8);
 	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
+
+	/* Color */
+	--color-bg:#c8c8c6;
+	--color-accent: #f7ee2c;
+	--color-accent2: #111111;
+	--color-main:black;
 }
 
 body {
-	color:black;
+	color:var(--color-accent2);
+}
+
+h1{
+	font-size: var(--space-xl);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	/* padding-block-start: var(--space-lg); */
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+	color: var(--color-main);
 }
 
 .across{
-	margin: 40px calc(var(--pad) * -1);
-	padding-left: var(--pad);
-	max-width: none;
+
 	overflow: hidden;
 }
