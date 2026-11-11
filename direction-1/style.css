@@ -33,7 +33,6 @@ font-family: Poppins;
 body{
 	color: var(--color-main);
 	font-family: Poppins;
-	margin:0;
 }
 
 h1,h2,.authortimeheading{
@@ -63,10 +62,19 @@ h2{
 	line-height: 3.5rem;
 	text-align: center;
 }
-
+h4{
+	font-family: Cal Sans;
+	padding-inline-start:var(--space-sm);
+	padding-block-start: var(--space-sm);
+}
+}
 mark{
 	background-color: #e6ff4a;
 	padding: .2rem;
+}
+
+p{
+	margin:1rem;
 }
 nav{
 
