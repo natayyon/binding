@@ -36,9 +36,17 @@ body{
 }
 
 h1{
-	font-family: Cal Sans;
 	font-size: var(--space-xl);
 	text-transform: lowercase;
+	width: fit-content;
+	padding-block-start: var(--space-lg);
+	padding-block-end: var(--space-md);
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01em;
+	line-height: .8;
 }
 
+nav{
 
+}
