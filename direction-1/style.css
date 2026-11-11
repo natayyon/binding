@@ -64,8 +64,8 @@ h2{
 }
 h4{
 	font-family: poppins;
-	font-weight: 450;
-	font-size:.7rem;
+	font-weight: 500;
+	font-size:.9rem;
 	padding-block-start: var(--space-md);
 	padding-block-end: var(--space-sm);
 	text-align: center;
