@@ -1,13 +1,13 @@
+html{
+	font-family: Cal Sans, Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+	background-color: lightpink;
+}
 body{
-		color:pink;
+	font-family: Cal sans;
+	
 }
 /* mobile-first base */
 body {
   font-size: 1rem;
-}
-
-@media (width >= 700px) {
-  body {
-    font-size: 1.125rem;
-  }
 }
