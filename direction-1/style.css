@@ -14,6 +14,7 @@ font-family: Poppins;
 
 	--space-sm: 1rem;
 	/* --space-callout: calc(var(--space-sm)*1.5); */
+	--space-shmd: calc(var(--space-sm)*1.1);
 	--space-md: calc(var(--space-sm)*2);
 	--space-lg: calc(var(--space-sm)*3);
 	--space-xl: calc(var(--space-sm)*4);
@@ -48,7 +49,7 @@ h1{
 }
 
 h2{
-	font-size: var(--space-md);
+	font-size: var(--space-shmd);
 	text-transform: lowercase;
 	width: fit-content;
 	padding-block-start: var(--space-lg);
@@ -57,7 +58,6 @@ h2{
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 3.5rem;
-	text-align: center;
 }
 }
 
