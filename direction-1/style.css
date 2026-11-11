@@ -12,6 +12,13 @@ html{
 color: black;
 font-family: Poppins;
 
+	--space-sm: 1rem;
+	/* --space-callout: calc(var(--space-sm)*1.5); */
+	--space-md: calc(var(--space-sm)*2);
+	--space-lg: calc(var(--space-sm)*3);
+	--space-xl: calc(var(--space-sm)*4);
+	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
+
 }
 body{
 	color: black;
