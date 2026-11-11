@@ -63,8 +63,11 @@ h2{
 	line-height: 3.5rem;
 	text-align: center;
 }
-}
 
+mark{
+	background-color: #e6ff4a;
+	padding: .2rem;
+}
 nav{
 
 }
