@@ -67,6 +67,11 @@ h4{
 	padding-inline-start:var(--space-sm);
 	padding-block-start: var(--space-sm);
 }
+
+h4 .datetime{
+	padding-inline-end:var(--space-sm);
+	padding-block-start: var(--space-sm);
+	text-align: right;
 }
 mark{
 	background-color: #e6ff4a;
