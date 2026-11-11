@@ -17,6 +17,7 @@ font-family: Poppins;
 	--space-md: calc(var(--space-sm)*2);
 	--space-lg: calc(var(--space-sm)*3);
 	--space-xl: calc(var(--space-sm)*4);
+	--space-xxl:calc(var(--space-sm)*8);
 	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
 
 }
@@ -27,7 +28,8 @@ body{
 
 h1{
 	font-family: Cal Sans;
-	font-size: 1.1rem;
+	font-size: var(--space-xl);
+	text-transform: lowercase;
 }
 
 
