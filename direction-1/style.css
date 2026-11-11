@@ -172,6 +172,11 @@ blockquote{
 	background-color:var(--color-accent);
 	padding: .2rem;
 }
+.markblack{
+	background-color:var(--color-main);
+	padding: .2rem;
+}
+
 li:hover{
 	color:var(--color-accent);
 }
@@ -198,4 +203,29 @@ li:hover{
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	text-align: center;
+}
+
+.design{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-md);
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+}
+
+.complex{
+	font-size: var(--space-lg);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	/* padding-block-end: var(--space-md); */
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+	color: var(--color-accent);
 }
