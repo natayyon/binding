@@ -1,3 +1,13 @@
 body{
 		color:pink;
 }
+/* mobile-first base */
+body {
+  font-size: 1rem;
+}
+
+@media (width >= 700px) {
+  body {
+    font-size: 1.125rem;
+  }
+}
