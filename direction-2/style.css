@@ -1,6 +1,5 @@
 html{
-	font-family: Archivo Black, Arial, Helvetica, sans-serif;
-	font-family: Poppins;
+	font-family: Archivo, Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
 	background-color: white;
 }
@@ -8,7 +7,7 @@ html{
 /* mobile-first base */
 :root{
 color: black;
-font-family: Poppins;
+font-family: Archivo;
 
 	--space-sm: 1rem;
 	/* --space-callout: calc(var(--space-sm)*1.5); */
@@ -18,4 +17,12 @@ font-family: Poppins;
 	--space-xl: calc(var(--space-sm)*4);
 	--space-xxl:calc(var(--space-sm)*8);
 	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
+}
+
+body {
+	color:black;
+}
+
+.across{
+	
 }
