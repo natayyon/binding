@@ -114,6 +114,10 @@ li{
 	&:nth-child(5){
 		border-block-end:0.1rem solid black;
 	}
+	&:nth-child(13){
+		border-block-end:0.1rem solid black;
+		background-color: var(--color-bg2);
+	}
 }
 
 h5{
@@ -185,7 +189,7 @@ li:hover{
 }
 
 .culture{
-	font-size: var(--space-shmd);
+	font-size: var(--space-md);
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block:1rem;
@@ -193,4 +197,5 @@ li:hover{
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
+	text-align: center;
 }
