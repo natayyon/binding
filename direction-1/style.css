@@ -47,7 +47,7 @@ h1,h2,.authortimeheading{
 h1{
 	font-size: var(--space-xl);
 	text-transform: lowercase;
-	width: fit-content;
+	/* width: fit-content; */
 	/* padding-block-start: var(--space-lg); */
 	font-family: Cal Sans;
 	text-transform: lowercase;
@@ -125,7 +125,18 @@ h5{
 	line-height: 3.5rem;
 	text-align: center;
 }
-
+h3{
+	font-family: Cal Sans;
+	font-size: var(--space-lg);
+	color: var(--color-main);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-sm);
+	text-align: center;
+	letter-spacing: -0.01rem;
+	margin:var(--space-sm);
+	line-height: var(--space-lg);
+}
 .markpink{
 	background-color:var(--color-accent);
 	padding: .2rem;
