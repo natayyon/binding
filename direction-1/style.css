@@ -1,13 +1,26 @@
 html{
+
 	font-family: Cal Sans, Arial, Helvetica, sans-serif;
+	font-family: Poppins;
 	font-size: 1.1rem;
-	background-color: lightpink;
+	background-color: white;
+}
+
+
+/* mobile-first base */
+:root{
+color: black;
+font-family: Poppins;
+
 }
 body{
-	font-family: Cal sans;
-	
+	color: black;
+	font-family: Poppins;
 }
-/* mobile-first base */
-body {
-  font-size: 1rem;
+
+h1{
+	font-family: Cal Sans;
+	font-size: 1.1rem;
 }
+
+
