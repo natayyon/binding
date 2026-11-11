@@ -20,10 +20,19 @@ font-family: Poppins;
 	--space-xxl:calc(var(--space-sm)*8);
 	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
 
+
+	/* Color */
+	--color-bg:white;
+	--color-bg2: #ff4fa3;
+	--color-bg3: #e6ff4a;
+	--color-accent: #ff4fa3;
+	--color-accent2: #e6ff4a;
+	--color-main:black;
 }
 body{
-	color: black;
+	color: var(--color-main);
 	font-family: Poppins;
+	margin:0;
 }
 
 h1{
