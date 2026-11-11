@@ -137,10 +137,30 @@ h3{
 	margin:var(--space-sm);
 	line-height: var(--space-lg);
 }
+
+h6{
+	background-color: var(--color-bg2);
+	font-family: Cal Sans;
+	font-size: var(--space-md);
+	color: var(--color-main);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block: var(--space-lg);
+	/* text-align: center; */
+	letter-spacing: -0.01rem;
+	/* margin:var(--space-sm); */
+	line-height: var(--space-lg);
+
+}
 .markpink{
 	background-color:var(--color-accent);
 	padding: .2rem;
 }
 li:hover{
 	color:var(--color-accent);
+}
+
+.rightalign{
+	display:block;
+	text-align: right;
 }
