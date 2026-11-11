@@ -75,6 +75,7 @@ h4{
 	padding-block-start: var(--space-md);
 	padding-block-end: var(--space-sm);
 	text-align: center;
+	text-transform: uppercase;
 }
 
 mark{
@@ -107,6 +108,7 @@ li{
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	/* margin:1rem; */
+	padding-inline-start: var(--space-sm);
 	border-block-start: 0.1rem solid black;
 
 	&:nth-child(5){
@@ -125,13 +127,14 @@ h5{
 	line-height: 3.5rem;
 	text-align: center;
 }
+
 h3{
 	font-family: Cal Sans;
 	font-size: var(--space-lg);
 	color: var(--color-main);
 	text-transform: lowercase;
 	/* width: fit-content; */
-	padding-block-start: var(--space-sm);
+	padding-block: var(--space-sm);
 	text-align: center;
 	letter-spacing: -0.01rem;
 	margin:var(--space-sm);
@@ -172,4 +175,22 @@ li:hover{
 .rightalign{
 	display:block;
 	text-align: right;
+}
+
+.note{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size:.8rem;
+	padding-block: var(--space-sm);
+}
+
+.culture{
+	font-size: var(--space-shmd);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block:1rem;
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
 }
