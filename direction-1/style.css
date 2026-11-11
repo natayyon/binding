@@ -63,16 +63,13 @@ h2{
 	text-align: center;
 }
 h4{
-	font-family: Cal Sans;
-	padding-inline-start:var(--space-sm);
+	font-family: poppins;
+	font-weight: 450;
 	padding-block-start: var(--space-sm);
+	padding-block-end: var(--space-sm);
+	text-align: center;
 }
 
-h4 .datetime{
-	padding-inline-end:var(--space-sm);
-	padding-block-start: var(--space-sm);
-	text-align: right;
-}
 mark{
 	background-color: #e6ff4a;
 	padding: .2rem;
