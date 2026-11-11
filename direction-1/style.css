@@ -79,12 +79,13 @@ h4{
 
 mark{
 	background-color: #e6ff4a;
-	padding: .2rem;
+
 }
 
 p{
 	margin:1rem;
 }
+
 nav{
 	font-size: var(--space-shmd);
 	text-transform: lowercase;
