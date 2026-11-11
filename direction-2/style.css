@@ -1,3 +1,21 @@
-body {
+html{
+	font-family: Archivo Black, Arial, Helvetica, sans-serif;
+	font-family: Poppins;
+	font-size: 1.1rem;
+	background-color: white;
+}
+
+/* mobile-first base */
+:root{
 color: black;
+font-family: Poppins;
+
+	--space-sm: 1rem;
+	/* --space-callout: calc(var(--space-sm)*1.5); */
+	--space-shmd: calc(var(--space-sm)*1.1);
+	--space-md: calc(var(--space-sm)*2);
+	--space-lg: calc(var(--space-sm)*3);
+	--space-xl: calc(var(--space-sm)*4);
+	--space-xxl:calc(var(--space-sm)*8);
+	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
 }
