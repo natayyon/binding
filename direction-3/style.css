@@ -1,7 +1,7 @@
 html{
 
-	font-family: Cal Sans, Arial, Helvetica, sans-serif;
-	font-family: Poppins;
+	font-family: BBH Bartle, Arial, Helvetica, sans-serif;
+	font-family: Special Gothic Expanded One;
 	font-size: 1.1rem;
 	background-color: white;
 }
@@ -10,7 +10,7 @@ html{
 /* mobile-first base */
 :root{
 color: black;
-font-family: Poppins;
+font-family: Special Gothic Expanded One;
 
 	--space-sm: 1rem;
 	/* --space-callout: calc(var(--space-sm)*1.5); */
@@ -24,15 +24,12 @@ font-family: Poppins;
 
 	/* Color */
 	--color-bg:white;
-	--color-bg2: #ff4fa3;
-	--color-bg3: #e6ff4a;
-	--color-accent: #ff4fa3;
-	--color-accent2: #e6ff4a;
+	--color-accent: #8690ff;
 	--color-main:black;
 }
 body{
 	color: var(--color-main);
-	font-family: Poppins;
+	font-family: Special Gothic Expanded One;
 }
 
 hgroup{
@@ -45,15 +42,14 @@ hgroup{
 h1,h2,.authortimeheading{
 }
 h1{
-	font-size: var(--space-xl);
+	font-size: var(--space-lg);
 	text-transform: lowercase;
 	/* width: fit-content; */
-	/* padding-block-start: var(--space-lg); */
-	font-family: Cal Sans;
+	padding-inline-start: var(--space-sm);
+	font-family: BBH Bartle;
 	text-transform: lowercase;
-	letter-spacing: -0.01rem;
-	line-height: 3.5rem;
-	text-align: center;
+	letter-spacing: -0.1rem;
+	line-height: 3rem;
 	color: var(--color-main);
 }
 
@@ -62,22 +58,22 @@ h2{
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block-end: var(--space-md);
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
-	line-height: 3.5rem;
-	text-align: center;
+	line-height: 2rem;
+	padding-inline-start: var(--space-sm);
 }
 h4{
-	font-family: poppins;
+	font-family: Special Gothic Expanded One;
 	font-weight: 500;
 	font-size:.9rem;
 	padding-block-start: var(--space-md);
 	padding-block-end: var(--space-sm);
-	text-align: center;
+	text-align:right;
 	text-transform: uppercase;
+	padding-inline-end: var(--space-sm);
 }
-
 mark{
 	background-color: #e6ff4a;
 
@@ -91,7 +87,7 @@ nav{
 	font-size: var(--space-shmd);
 	text-transform: lowercase;
 	/* width: fit-content; */
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
@@ -103,7 +99,7 @@ li{
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block:1rem;
-	font-family: Cal Sans;
+	font-family: Special Gothic Expanded One;
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
@@ -125,7 +121,7 @@ h5{
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block-start: var(--space-sm);
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 3.5rem;
@@ -133,7 +129,7 @@ h5{
 }
 
 h3{
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	font-size: var(--space-lg);
 	color: var(--color-main);
 	text-transform: lowercase;
@@ -151,7 +147,7 @@ blockquote{
 	justify-content: space-between;
 	min-block-size: 45vh;
 	background-color: var(--color-bg2);
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	font-size: var(--space-md);
 	color: var(--color-main);
 	text-transform: lowercase;
@@ -198,7 +194,7 @@ li:hover{
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block:1rem;
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
@@ -210,7 +206,7 @@ li:hover{
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block-end: var(--space-md);
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 3.5rem;
@@ -222,7 +218,7 @@ li:hover{
 	text-transform: lowercase;
 	/* width: fit-content; */
 	/* padding-block-end: var(--space-md); */
-	font-family: Cal Sans;
+	font-family: BBH Bartle;
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 3.5rem;
