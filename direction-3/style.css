@@ -63,6 +63,8 @@ h2{
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	padding-inline-start: var(--space-sm);
+	padding-inline-end: var(--space-sm);
+	text-align: right;
 }
 h4{
 	font-family: Special Gothic Expanded One;
