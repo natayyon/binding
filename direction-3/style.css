@@ -1,3 +1,231 @@
+html{
+
+	font-family: Cal Sans, Arial, Helvetica, sans-serif;
+	font-family: Poppins;
+	font-size: 1.1rem;
+	background-color: white;
+}
+
+
+/* mobile-first base */
+:root{
+color: black;
+font-family: Poppins;
+
+	--space-sm: 1rem;
+	/* --space-callout: calc(var(--space-sm)*1.5); */
+	--space-shmd: calc(var(--space-sm)*1.1);
+	--space-md: calc(var(--space-sm)*2);
+	--space-lg: calc(var(--space-sm)*3);
+	--space-xl: calc(var(--space-sm)*4);
+	--space-xxl:calc(var(--space-sm)*8);
+	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
+
+
+	/* Color */
+	--color-bg:white;
+	--color-bg2: #ff4fa3;
+	--color-bg3: #e6ff4a;
+	--color-accent: #ff4fa3;
+	--color-accent2: #e6ff4a;
+	--color-main:black;
+}
 body{
-		color:plum
+	color: var(--color-main);
+	font-family: Poppins;
+}
+
+hgroup{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-block-size:75vh;
+	background-color: var(--color-bg2);
+}
+h1,h2,.authortimeheading{
+}
+h1{
+	font-size: var(--space-xl);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	/* padding-block-start: var(--space-lg); */
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+	color: var(--color-main);
+}
+
+h2{
+	font-size: var(--space-shmd);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-md);
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+}
+h4{
+	font-family: poppins;
+	font-weight: 500;
+	font-size:.9rem;
+	padding-block-start: var(--space-md);
+	padding-block-end: var(--space-sm);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+mark{
+	background-color: #e6ff4a;
+
+}
+
+p{
+	margin:1rem;
+}
+
+nav{
+	font-size: var(--space-shmd);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	margin:1rem;
+}
+
+li{
+	font-size: var(--space-shmd);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block:1rem;
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	/* margin:1rem; */
+	padding-inline-start: var(--space-sm);
+	border-block-start: 0.1rem solid black;
+
+	&:nth-child(5){
+		border-block-end:0.1rem solid black;
+	}
+	&:nth-child(13){
+		border-block-end:0.1rem solid black;
+		background-color: var(--color-bg2);
+	}
+}
+
+h5{
+	font-size: var(--space-shmd);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-sm);
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+}
+
+h3{
+	font-family: Cal Sans;
+	font-size: var(--space-lg);
+	color: var(--color-main);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block: var(--space-sm);
+	text-align: center;
+	letter-spacing: -0.01rem;
+	margin:var(--space-sm);
+	line-height: var(--space-lg);
+}
+
+blockquote{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-block-size: 45vh;
+	background-color: var(--color-bg2);
+	font-family: Cal Sans;
+	font-size: var(--space-md);
+	color: var(--color-main);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block: var(--space-lg);
+	padding-inline-start: var(--space-shmd);
+	padding-inline-end: var(--space-shmd);
+	/* text-align: center; */
+	letter-spacing: -0.01rem;
+	/* margin:var(--space-sm); */
+	line-height: var(--space-lg);
+	margin-block: 2rem;
+
+
+}
+
+.markpink{
+	background-color:var(--color-accent);
+	padding: .2rem;
+}
+.markblack{
+	background-color:var(--color-main);
+	padding: .2rem;
+}
+
+li:hover{
+	color:var(--color-accent);
+}
+
+.rightalign{
+	display:block;
+	text-align: right;
+}
+
+.note{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size:.8rem;
+	padding-block: var(--space-sm);
+}
+
+.culture{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block:1rem;
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	text-align: center;
+}
+
+.design{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-md);
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+}
+
+.complex{
+	font-size: var(--space-lg);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	/* padding-block-end: var(--space-md); */
+	font-family: Cal Sans;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3.5rem;
+	text-align: center;
+	color: var(--color-accent);
 }
