@@ -29,13 +29,14 @@ font-family: "Archivo";
 body {
 	color:var(--color-accent2);
 	margin:1rem
+
 }
 
 h1,em{
 	font-size: var(--space-md);
 	text-transform: lowercase;
 	/* width: fit-content; */
-	/* padding-block-start: var(--space-lg); */
+	padding-block-end: var(--space-lg);
 	font-family: "Archivo";
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
@@ -61,7 +62,6 @@ li{
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	color: var(--color-main);
-	text-align: right;
 }
 
 li:hover{
@@ -72,10 +72,55 @@ h3{
 	font-size: var(--space-md);
 	text-transform: lowercase;
 	/* width: fit-content; */
-	/* padding-block-start: var(--space-lg); */
+	padding-block-start: var(--space-lg);
 	font-family: "Archivo";
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	color: var(--color-accent);
+}
+
+p{
+color: var(--color-main);
+padding-block: 1rem;
+line-height: 1.5rem;
+}
+
+strong{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-accent);
+}
+
+span{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
+}
+
+.bigcalloutquote{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
 }
