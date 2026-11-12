@@ -51,6 +51,9 @@ h1{
 	letter-spacing: -0.1rem;
 	line-height: 3rem;
 	color: var(--color-main);
+	padding-block: 1rem;;
+	border-block: 0.5rem solid black;
+
 }
 
 h2{
@@ -65,6 +68,7 @@ h2{
 	padding-inline-start: var(--space-sm);
 	padding-inline-end: var(--space-sm);
 	text-align: right;
+	border-block-end: 0.5rem solid black;
 }
 h4{
 	font-family: Special Gothic Expanded One;
@@ -72,7 +76,7 @@ h4{
 	font-size:.9rem;
 	padding-block-start: var(--space-md);
 	padding-block-end: var(--space-sm);
-	text-align:right;
+	text-align:center;
 	text-transform: uppercase;
 	padding-inline-end: var(--space-sm);
 }
@@ -132,7 +136,7 @@ h5{
 
 h3{
 	font-family: BBH Bartle;
-	font-size: var(--space-lg);
+	font-size: var(--space-md);
 	color: var(--color-main);
 	text-transform: lowercase;
 	/* width: fit-content; */
