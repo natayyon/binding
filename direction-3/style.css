@@ -1,7 +1,7 @@
 html{
 
 	font-family: BBH Bartle, Arial, Helvetica, sans-serif;
-	font-family: Special Gothic Expanded One;
+	font-family: Special Gothic;
 	font-size: 1.1rem;
 	background-color: white;
 }
@@ -10,7 +10,7 @@ html{
 /* mobile-first base */
 :root{
 color: black;
-font-family: Special Gothic Expanded One;
+font-family: Special Gothic;
 
 	--space-sm: 1rem;
 	/* --space-callout: calc(var(--space-sm)*1.5); */
@@ -29,7 +29,7 @@ font-family: Special Gothic Expanded One;
 }
 body{
 	color: var(--color-main);
-	font-family: Special Gothic Expanded One;
+	font-family: Special Gothic;
 }
 
 hgroup{
@@ -71,7 +71,7 @@ h2{
 	border-block-end: 0.5rem solid black;
 }
 h4{
-	font-family: Special Gothic Expanded One;
+	font-family: Special Gothic;
 	font-weight: 500;
 	font-size:.9rem;
 	padding-block-start: var(--space-md);
@@ -87,6 +87,7 @@ mark{
 
 p{
 	margin:1rem;
+	font-weight:lighter;
 }
 
 nav{
@@ -111,13 +112,13 @@ li{
 	line-height: 2rem;
 	/* margin:1rem; */
 	padding-inline-start: var(--space-sm);
-	border-block-start: 0.1rem solid black;
+	border-block-end: 0.5rem solid black;
 
 	&:nth-child(5){
-		border-block-end:0.1rem solid black;
+		border-block-end: 0.5rem solid black;
 	}
 	&:nth-child(13){
-		border-block-end:0.1rem solid black;
+		border-block-end: 0.5rem solid black;
 		background-color: var(--color-bg2);
 	}
 }
