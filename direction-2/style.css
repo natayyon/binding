@@ -1,7 +1,7 @@
 html{
 	font-family: "Archivo", Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
-	background-color: white;
+	background-color: rgb(189, 189, 189);
 }
 
 /* mobile-first base */
@@ -21,28 +21,34 @@ font-family: "Archivo";
 
 	/* Color */
 	--color-bg:#c8c8c6;
-	--color-accent: #f7ee2c;
+	--color-accent: #eee31d;
 	--color-accent2: #111111;
 	--color-main:black;
 }
 
 body {
 	color:var(--color-accent2);
+	margin:1rem
 }
 
-h1{
-	font-size: var(--space-xl);
+h1,em{
+	font-size: var(--space-md);
 	text-transform: lowercase;
 	/* width: fit-content; */
 	/* padding-block-start: var(--space-lg); */
 	font-family: "Archivo";
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
-	line-height: 3.5rem;
-	text-align: center;
-	color: var(--color-main);
+	line-height: 2rem;
+	color: var(--color-accent);
+	overflow:hidden;
 }
 
+
+em{
+color: var(--color-main);
+font-weight: bold;
+}
 .across{
 
 	overflow: hidden;
