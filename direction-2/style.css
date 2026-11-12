@@ -49,7 +49,33 @@ em{
 color: var(--color-main);
 font-weight: bold;
 }
-.across{
 
-	overflow: hidden;
+li{
+	font-size: var(--space-sm);
+	text-transform: lowercase;
+	font-weight: bold;
+	/* width: fit-content; */
+	/* padding-block-start: var(--space-lg); */
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
+	text-align: right;
+}
+
+li:hover{
+	color:var(--color-accent);
+}
+
+h3{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	/* padding-block-start: var(--space-lg); */
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-accent);
 }
