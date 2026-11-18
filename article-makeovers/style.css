@@ -1,0 +1,126 @@
+html{
+	font-family: "Archivo", Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+	background-color: rgb(189, 189, 189);
+}
+
+/* mobile-first base */
+:root{
+color: black;
+background-color: ;
+font-family: "Archivo";
+
+	--space-sm: 1rem;
+	/* --space-callout: calc(var(--space-sm)*1.5); */
+	--space-shmd: calc(var(--space-sm)*1.1);
+	--space-md: calc(var(--space-sm)*2);
+	--space-lg: calc(var(--space-sm)*3);
+	--space-xl: calc(var(--space-sm)*4);
+	--space-xxl:calc(var(--space-sm)*8);
+	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
+
+	/* Color */
+	--color-bg:#c8c8c6;
+	--color-accent: #eee31d;
+	--color-accent2: #111111;
+	--color-main:black;
+}
+
+body {
+	color:var(--color-accent2);
+	margin:1rem
+
+}
+
+h1,em{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-accent);
+	overflow:hidden;
+}
+
+
+em{
+color: var(--color-main);
+font-weight: bold;
+}
+
+li{
+	font-size: var(--space-sm);
+	text-transform: lowercase;
+	font-weight: bold;
+	/* width: fit-content; */
+	/* padding-block-start: var(--space-lg); */
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
+}
+
+li:hover{
+	color:var(--color-accent);
+}
+
+h3{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-accent);
+}
+
+p{
+color: var(--color-main);
+padding-block: 1rem;
+line-height: 1.5rem;
+}
+
+strong{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-accent);
+}
+
+span{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
+}
+
+.bigcalloutquote{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
+}
