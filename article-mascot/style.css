@@ -33,7 +33,7 @@ h1,em{
 	font-size: var(--space-md);
 	text-transform: lowercase;
 	/* width: fit-content; */
-	padding-block-end: var(--space-lg);
+	padding-block: var(--space-lg);
 	font-family: "Archivo";
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
@@ -62,7 +62,7 @@ font-weight: bold;
 hgroup {
   background-color: var(--color-accent);
   padding: var(--space-md);
-  min-height: 30vh;
+  min-height: 85vh;
 }
 
 /*
@@ -80,11 +80,6 @@ li{
 } */
 
 
-li:hover{
-	color:var(--color-accent);
-}
-
-
 li{
 	color:var(--color-main);
 	font-size: var(--space-shmd);
@@ -96,8 +91,9 @@ li{
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	/* margin:1rem; */
-	padding-inline-start: var(--space-sm);
+	padding-inline-start: var(--space-md);
 	border-block-start: 0.1rem solid black;
+
 
 	&:nth-child(5){
 		border-block-end:0.1rem solid black;
@@ -107,6 +103,11 @@ li{
 		background-color: var(--color-main);
 	}
 }
+
+li:hover{
+	color:var(--color-accent);
+}
+
 
 h3{
 	font-size: var(--space-md);
