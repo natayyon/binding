@@ -106,7 +106,7 @@ h3{
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 3rem;
-	color: var(--color-accent);
+	color:var(--color-accent);
 }
 
 mark{
@@ -192,6 +192,8 @@ section{
 .rightalign{
 	display:block;
 	text-align: right;
+	font-size: var(--space-lg);
+	padding-block-end: var(--space-md);
 }
 
 .blockquote{
@@ -218,4 +220,15 @@ section{
 
 .blackh3{
 font-size:var(--space-lg);
+}
+
+.culture{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block:1rem;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	text-align: center;
 }
