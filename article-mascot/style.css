@@ -252,3 +252,17 @@ font-size:var(--space-lg);
 		color:var(--color-accent2);
 	}
 }
+
+.h1look{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color:rgb(225, 219, 18);
+	background-color: var(--color-accent);
+	padding:2rem;
+}
