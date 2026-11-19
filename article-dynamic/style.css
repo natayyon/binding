@@ -273,7 +273,18 @@ font-size:var(--space-lg);
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
-	color:rgb(225, 219, 18);
+	color:rgb(255, 255, 255);
 	background-color: var(--color-accent);
 	padding:2rem;
+}
+
+@media (width > 700px){
+article{
+	margin:20rem;
+}
+h3{
+
+	padding-block-start: var(--space-sm);
+
+}
 }
