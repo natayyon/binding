@@ -29,7 +29,6 @@ font-family: "Archivo";
 body {
 	color:var(--color-accent2);
 	margin:1rem
-
 }
 
 h1,em{
@@ -78,6 +77,11 @@ h3{
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	color: var(--color-accent);
+}
+
+mark{
+	background-color:var(--color-main);
+	color:var(--color-main);
 }
 
 p{

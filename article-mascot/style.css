@@ -107,6 +107,13 @@ h3{
 	color: var(--color-accent);
 }
 
+mark{
+	background-color:var(--color-accent);
+	color:var(--color-main);
+	font-weight: bold;
+}
+
+
 p{
 color: var(--color-main);
 padding-block: 1rem;
