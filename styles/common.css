@@ -1,3 +1,283 @@
-body{
-		color:red
+/* html{
+	font-family: "Archivo", Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+	background-color: rgb(189, 189, 189);
+} */
+
+/* mobile-first base */
+:root{
+	background-color: rgb(255, 255, 255);
+	--space-sm: 1rem;
+	/* --space-callout: calc(var(--space-sm)*1.5); */
+	--space-shmd: calc(var(--space-sm)*1.1);
+	--space-md: calc(var(--space-sm)*2);
+	--space-lg: calc(var(--space-sm)*3);
+	--space-xl: calc(var(--space-sm)*4);
+	--space-xxl:calc(var(--space-sm)*8);
+	--page-padding: clamp(var(--space-sm), 4vw, var(--space-md));
+
+	/* Color */
+	--color-bg:#b8b5b5;
+	--color-accent: #fff204;
+	--color-accent2: #111111;
+	--color-accent3:rgb(225, 219, 18);
+	--color-main:black;
+}
+
+body {
+	margin:0;
+	font-family: Archivo;
+
+}
+
+h1,em{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-accent);
+}
+
+
+h1{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color:rgb(223, 223, 223);
+
+}
+
+em{
+color: var(--color-main);
+font-weight: bold;
+}
+
+hgroup {
+  background-color: var(--color-accent);
+  padding: var(--space-md);
+  min-height: 85vh;
+}
+
+li{
+	color:var(--color-main);
+	font-size: var(--space-shmd);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block:1rem;
+	font-family: Archivo;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	/* margin:1rem; */
+	padding-inline-start: var(--space-md);
+	border-block-start: 0.1rem solid black;
+
+
+	&:nth-child(5){
+		border-block-end:0.1rem solid black;
+	}
+	&:nth-child(13){
+		border-block-end:0.1rem solid black;
+		background-color: var(--color-main);
+	}
+}
+
+li:hover{
+	color:var(--color-accent);
+	background-color:var(--color-main);
+}
+
+
+h3{
+	font-size: var(--space-lg);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-lg);
+	padding-block-end: var(--space-sm);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3rem;
+	color:var(--color-accent);
+}
+
+mark{
+	background-color:var(--color-accent);
+	color:var(--color-main);
+	font-weight: bold;
+}
+
+
+p{
+color: var(--color-main);
+padding-block: .5rem;
+line-height: 1.5rem;
+background-color:rgb(255, 255, 255);
+}
+
+strong{
+	font-size: var(--space-sm);
+	font-weight: 700;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	margin-block-end: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 1rem;
+	color: var(--color-main);
+}
+
+span{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
+}
+
+section{
+	margin:1rem;
+}
+
+.calloutgray{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color:var(--color-accent);
+	background-color: var(--color-accen);
+}
+
+.note{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size:.7rem;
+	padding-block: var(--space-sm);
+	font-family: Archivo;
+	line-height: var(--space-shmd);
+}
+
+.bigcalloutquote{
+	font-size: var(--space-md);
+	font-weight: 900;
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-xl);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color: var(--color-main);
+	background-color: var(--color-accent);
+
+}
+.rightalign{
+	display:block;
+	text-align: right;
+	font-size: var(--space-lg);
+	padding-block-end: var(--space-md);
+}
+
+
+.blockquote, .blockquote2, .blockquote3{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-block-size: 20vh;
+	background-color: var(--color-accent);
+	font-family: Archivo;
+	font-size: var(--space-md);
+	color: var(--color-main);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block: var(--space-lg);
+	padding-inline-start: var(--space-shmd);
+	padding-inline-end: var(--space-shmd);
+	/* text-align: center; */
+	letter-spacing: -0.01rem;
+	/* margin:var(--space-sm); */
+	line-height: var(--space-sm);
+	margin:0;
+}
+
+.blockquote2{
+	line-height:var(--space-md);
+	margin-inline-start:var(--spacing-md);
+	padding-block-start:var(--spacing-sm);
+
+}
+
+.blockquote3{
+	line-height:var(--space-md);
+	margin-inline-start:var(--spacing-xl);
+	padding-block-start:3rem;
+}
+
+.blackh3{
+font-size:var(--space-lg);
+}
+
+.culture{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block:1rem;
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	text-align: center;
+
+	&:nth-child(5){
+		background-color:var(--color-accent);
+		color:var(--color-accent2);
+	}
+}
+
+.h1look{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color:rgb(225, 219, 18);
+	background-color: var(--color-accent);
+	padding:2rem;
+}
+
+@media (width > 700px){
+article{
+	margin:20rem;
+}
+h3{
+
+	padding-block-start: var(--space-sm);
+
+}
+}
+.idk{
+	padding-block-end: 4rem;
 }
