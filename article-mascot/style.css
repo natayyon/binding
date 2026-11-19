@@ -266,3 +266,14 @@ font-size:var(--space-lg);
 	background-color: var(--color-accent);
 	padding:2rem;
 }
+
+@media (width > 700px){
+article{
+	margin:20rem;
+}
+h3{
+
+	padding-block-start: var(--space-sm);
+
+}
+}
