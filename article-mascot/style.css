@@ -59,6 +59,7 @@ em{
 color: var(--color-main);
 font-weight: bold;
 }
+
 hgroup {
   background-color: var(--color-accent);
   padding: var(--space-md);
@@ -96,14 +97,14 @@ li:hover{
 
 
 h3{
-	font-size: var(--space-md);
+	font-size: var(--space-lg);
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block-start: var(--space-lg);
 	font-family: "Archivo";
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
-	line-height: 2rem;
+	line-height: 3rem;
 	color: var(--color-accent);
 }
 
@@ -214,3 +215,6 @@ section{
 	margin:0;
 }
 
+.blackh3{
+font-size:var(--space-lg);
+}
