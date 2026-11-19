@@ -102,6 +102,7 @@ h3{
 	text-transform: lowercase;
 	/* width: fit-content; */
 	padding-block-start: var(--space-lg);
+	padding-block-end: var(--space-sm);
 	font-family: "Archivo";
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
@@ -118,7 +119,7 @@ mark{
 
 p{
 color: var(--color-main);
-padding-block: 1rem;
+padding-block: .5rem;
 line-height: 1.5rem;
 background-color:rgb(255, 255, 255);
 }
@@ -186,7 +187,7 @@ section{
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	color: var(--color-main);
-	background-color: var(--color-main);
+	background-color: var(--color-accent);
 
 }
 .rightalign{
@@ -196,7 +197,8 @@ section{
 	padding-block-end: var(--space-md);
 }
 
-.blockquote{
+
+.blockquote, .blockquote2, .blockquote3{
 	width:100%;
 	display: flex;
 	flex-direction: column;
@@ -218,6 +220,19 @@ section{
 	margin:0;
 }
 
+.blockquote2{
+	line-height:var(--space-md);
+	margin-inline-start:var(--spacing-md);
+	padding-block-start:var(--spacing-sm);
+
+}
+
+.blockquote3{
+	line-height:var(--space-md);
+	margin-inline-start:var(--spacing-xl);
+	padding-block-start:3rem;
+}
+
 .blackh3{
 font-size:var(--space-lg);
 }
@@ -237,4 +252,3 @@ font-size:var(--space-lg);
 		color:var(--color-accent2);
 	}
 }
-
