@@ -6,10 +6,6 @@ html{
 
 /* mobile-first base */
 :root{
-color: black;
-background-color: ;
-font-family: "Archivo";
-
 	--space-sm: 1rem;
 	/* --space-callout: calc(var(--space-sm)*1.5); */
 	--space-shmd: calc(var(--space-sm)*1.1);
