@@ -80,7 +80,7 @@ h3{
 }
 
 mark{
-	background-color:var(--color-main);
+	background-color:var(--color-accent2);
 	color:var(--color-main);
 }
 
