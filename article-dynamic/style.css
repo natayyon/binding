@@ -82,7 +82,7 @@ li{
 	border-block-start: 0.1rem solid black;
 
 
-	&:nth-child(5){
+	&:nth-child(6){
 		border-block-end:0.1rem solid black;
 	}
 	&:nth-child(13){
@@ -96,7 +96,18 @@ li:hover{
 	background-color:var(--color-main);
 }
 
-
+h2{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-start: var(--space-lg);
+	padding-block-end: var(--space-sm);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 3rem;
+	color:var(--color-main);
+}
 h3{
 	font-size: var(--space-lg);
 	text-transform: lowercase;
