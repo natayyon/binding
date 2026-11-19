@@ -130,7 +130,7 @@ strong{
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
-	color: var(--color-accent);
+	color: var(--color-main);
 }
 
 span{
@@ -149,6 +149,17 @@ span{
 section{
 	margin:1rem;
 }
+.calloutgray{
+	font-size: var(--space-md);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block-end: var(--space-lg);
+	font-family: "Archivo";
+	text-transform: lowercase;
+	letter-spacing: -0.01rem;
+	line-height: 2rem;
+	color:var(--color-accent);
+}
 
 .bigcalloutquote{
 	font-size: var(--space-md);
@@ -162,3 +173,4 @@ section{
 	line-height: 2rem;
 	color: var(--color-main);
 }
+
