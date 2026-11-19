@@ -150,6 +150,7 @@ span{
 section{
 	margin:1rem;
 }
+
 .calloutgray{
 	font-size: var(--space-md);
 	text-transform: lowercase;
@@ -161,6 +162,15 @@ section{
 	line-height: 2rem;
 	color:var(--color-accent);
 	background-color: var(--color-accen);
+}
+
+.note{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size:.7rem;
+	padding-block: var(--space-sm);
+	font-family: Archivo;
+	line-height: var(--space-shmd);
 }
 
 .bigcalloutquote{
