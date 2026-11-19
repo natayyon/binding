@@ -18,7 +18,7 @@
 
 	/* Color */
 	--color-bg:#b8b5b5;
-	--color-accent: #fff204;
+	--color-accent: #04eeff;
 	--color-accent2: #111111;
 	--color-accent3:rgb(225, 219, 18);
 	--color-main:black;
@@ -52,7 +52,7 @@ h1{
 	text-transform: lowercase;
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
-	color:rgb(225, 219, 18);
+	color:rgba(177, 196, 169, 0.553);
 
 }
 
