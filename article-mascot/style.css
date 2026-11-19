@@ -187,4 +187,30 @@ section{
 	background-color: var(--color-main);
 
 }
+.rightalign{
+	display:block;
+	text-align: right;
+}
+
+.blockquote{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-block-size: 20vh;
+	background-color: var(--color-accent);
+	font-family: Archivo;
+	font-size: var(--space-md);
+	color: var(--color-main);
+	text-transform: lowercase;
+	/* width: fit-content; */
+	padding-block: var(--space-lg);
+	padding-inline-start: var(--space-shmd);
+	padding-inline-end: var(--space-shmd);
+	/* text-align: center; */
+	letter-spacing: -0.01rem;
+	/* margin:var(--space-sm); */
+	line-height: var(--space-sm);
+	margin:0;
+}
 
