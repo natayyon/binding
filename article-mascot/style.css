@@ -231,4 +231,9 @@ font-size:var(--space-lg);
 	letter-spacing: -0.01rem;
 	line-height: 2rem;
 	text-align: center;
+
+	&:nth-child(5){
+		background-color:var(--color-accent);
+		color:var(--color-accent2);
+	}
 }
